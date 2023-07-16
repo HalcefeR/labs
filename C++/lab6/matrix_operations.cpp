@@ -53,7 +53,7 @@ void delete_max_row(int ***matrix, int *m, int n){
 			(*matrix)[row][col] = (*matrix)[row + 1][col];
 		}
 	}
-	delete[] (*matrix)[(*m)];
+	
 	(*m)--;
 }
 
